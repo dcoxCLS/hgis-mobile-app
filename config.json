@@ -1,18 +1,18 @@
 {
   "map": {
-    "extent": [0,0],
-    "basemap": "topo",
-    "zoom": 2
+    "extent": [-79.93654,32.785846],
+    "basemap": "satellite",
+    "zoom": 12
   },
   "navbar": {
-    "title": "CDMI HGIS Mobile App",
-    "backgroundColor": "#285756",
-    "logo": "assets/dmilogo.png",
-    "textColor": "#ffffff"  
+    "title": "SHOC Mobile App",
+    "backgroundColor": "#f7dfad",
+    "logo": "assets/shoc_logo_250px.png",
+    "textColor": "#660000"  
   },
   "layers": {
-    "storiesLayerUrl": "https://portal1-geo.sabu.mtu.edu/server/rest/services/Hosted/CDMI_Story_Template_Layer/FeatureServer/0",
-    "indexLayerUrl": "https://portal1-geo.sabu.mtu.edu/server/rest/services/Hosted/KeTT_Mobile_Map_Indexes/FeatureServer/0"
+    "storiesLayerUrl": "https://lyre.cofc.edu/server/rest/services/Hosted/public_map_input/FeatureServer/0",
+    "indexLayerUrl": "https://portal1-geo.sabu.mtu.edu/server/rest/services/Hosted/map_index/FeatureServer/0"
   },
   "markers": {
     "storyMarkerUrl": "assets/marker_story.png",
@@ -21,12 +21,12 @@
   },
   "splashScreen": {
     "visible": true,
-    "title": "HGIS Mobile App",
+    "title": "SHOC Mobile App",
     "titleColor": "#ffffff",
-    "backgroundColor": "#285756",
+    "backgroundColor": "#660000",
     "textColor": "#ffffff",
-    "paragraphText": "This is an HGIS Mobile app example. Put information about your app here. HTML tags are accepted.",
-    "image": "assets/cdmibanner.png",
+    "paragraphText": "Exploring the historical landscapes of Charleston.",
+    "image": "assets/shoc_logo_250px.png",
     "navBarColor": "#363636",
     "navBarTextColor": "#ffffff",
     "closeTextColor": "#ffffff"
@@ -75,21 +75,21 @@
   "transparencySlider": {
     "barColor": "#83A1A0",    
     "barColorActive": "#d7d8da",
-    "barColorInactive": "#83A1A0",
+    "barColorInactive": "#660000",
     "handleColor": "#ffffff"
   },
   "links": [
     {
       "text": "About the project",
-      "url": "https://www.keweenawhistory.com/about-the-project.html"
+      "url": "https://lyre.cofc.edu/portal/apps/sites/#/shoc"
     },
     {
       "text": "About the maps",
-      "url": "https://www.keweenawhistory.com/about-the-maps.html"
+      "url": "https://lyre.cofc.edu/portal/apps/sites/#/shoc"
     },
     {
       "text": "Meet the team",
-      "url": "https://www.keweenawhistory.com/meet-the-team.html"
+      "url": "https://lyre.cofc.edu/portal/apps/sites/#/shoc"
     }
   ]  
 }
