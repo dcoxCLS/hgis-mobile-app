@@ -25,7 +25,7 @@
     "titleColor": "#ffffff",
     "backgroundColor": "#660000",
     "textColor": "#ffffff",
-    "paragraphText": "Exploring the historical landscapes of Charleston.",
+    "paragraphText": "Us this app to explore the historical landscapes of Charleston.",
     "image": "assets/shoc_logo_250px.png",
     "navBarColor": "#363636",
     "navBarTextColor": "#ffffff",
@@ -85,11 +85,11 @@
     },
     {
       "text": "About the maps",
-      "url": "https://lyre.cofc.edu/portal/apps/sites/#/shoc"
+      "url": "https://lyre.cofc.edu/portal/apps/sites/#/shoc/pages/about-the_maps"
     },
     {
       "text": "Meet the team",
-      "url": "https://lyre.cofc.edu/portal/apps/sites/#/shoc"
+      "url": "https://lyre.cofc.edu/portal/apps/sites/#/shoc/pages/about-the-team"
     }
   ]  
 }
